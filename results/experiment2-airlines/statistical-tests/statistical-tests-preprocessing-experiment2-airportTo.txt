@@ -1,0 +1,76 @@
+INFORMATION
+Input file:  experiment3-airportTo-preprocessing.csv
+Baseline values:  experiment3-baseline.csv
+Alpha:  0.05
+----------------
+
+
+PAIRWISE COMPARISON (WILCOXON)
+HT : preprocessing vs no preprocessing (alpha=0.05)
+
+
+	Wilcoxon signed rank test with continuity correction
+
+data:  data[, i]
+V = 12, p-value = 0.1404
+alternative hypothesis: true location is greater than 65.0784
+90 percent confidence interval:
+ 64.25246      Inf
+sample estimates:
+(pseudo)median 
+      76.42015 
+
+INTERPRETATION: The Null hypothesis cannot be rejected
+
+
+KNN : preprocessing vs no preprocessing (alpha=0.05)
+
+
+	Wilcoxon signed rank test with continuity correction
+
+data:  data[, i]
+V = 10, p-value = 0.2948
+alternative hypothesis: true location is greater than 67.1536
+90 percent confidence interval:
+ 61.51856      Inf
+sample estimates:
+(pseudo)median 
+      72.57436 
+
+INTERPRETATION: The Null hypothesis cannot be rejected
+
+
+NB : preprocessing vs no preprocessing (alpha=0.05)
+
+
+	Wilcoxon signed rank test with continuity correction
+
+data:  data[, i]
+V = 8, p-value = 0.5
+alternative hypothesis: true location is greater than 64.5504
+90 percent confidence interval:
+ 58.98628      Inf
+sample estimates:
+(pseudo)median 
+      64.96335 
+
+INTERPRETATION: The Null hypothesis cannot be rejected
+
+
+RC : preprocessing vs no preprocessing (alpha=0.05)
+
+
+	Wilcoxon signed rank test with continuity correction
+
+data:  data[, i]
+V = 15, p-value = 0.02953
+alternative hypothesis: true location is greater than 60.8736
+90 percent confidence interval:
+ 63.03828      Inf
+sample estimates:
+(pseudo)median 
+      66.83136 
+
+INTERPRETATION: The Null hypothesis can be rejected (0.0295291145452684<0.05)
+
+

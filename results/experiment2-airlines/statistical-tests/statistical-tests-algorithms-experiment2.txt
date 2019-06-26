@@ -1,0 +1,192 @@
+INFORMATION
+Input file:  experiment3.csv
+Alpha:  0.05
+----------------
+MULTIPLE COMPARISON (KRUSKAL-WALLIS)
+
+
+	Kruskal-Wallis rank sum test
+
+data:  data
+Kruskal-Wallis chi-squared = 5.9252, df = 3, p-value = 0.1153
+
+INTERPRETATION: The Null hypothesis cannot be rejected
+
+
+PAIRWISE COMPARISON (WILCOXON)
+HT vs KNN (alpha=0.05)
+
+
+	Wilcoxon rank sum test with continuity correction
+
+data:  data[, i] and data[, j]
+W = 384, p-value = 0.1683
+alternative hypothesis: true location shift is not equal to 0
+95 percent confidence interval:
+ -1.936447  8.728989
+sample estimates:
+difference in location 
+              2.774063 
+
+
+
+HT vs NB (alpha=0.05)
+
+
+	Wilcoxon rank sum test with continuity correction
+
+data:  data[, i] and data[, j]
+W = 424, p-value = 0.03126
+alternative hypothesis: true location shift is not equal to 0
+95 percent confidence interval:
+  0.2312339 10.4904962
+sample estimates:
+difference in location 
+              4.015095 
+
+
+
+HT vs RC (alpha=0.05)
+
+
+	Wilcoxon rank sum test with continuity correction
+
+data:  data[, i] and data[, j]
+W = 418, p-value = 0.04162
+alternative hypothesis: true location shift is not equal to 0
+95 percent confidence interval:
+  0.107722 10.190587
+sample estimates:
+difference in location 
+              3.761644 
+
+
+
+KNN vs NB (alpha=0.05)
+
+
+	Wilcoxon rank sum test with continuity correction
+
+data:  data[, i] and data[, j]
+W = 354, p-value = 0.4263
+alternative hypothesis: true location shift is not equal to 0
+95 percent confidence interval:
+ -2.193785  6.102188
+sample estimates:
+difference in location 
+              1.256757 
+
+
+
+KNN vs RC (alpha=0.05)
+
+
+	Wilcoxon rank sum test with continuity correction
+
+data:  data[, i] and data[, j]
+W = 325, p-value = 0.8159
+alternative hypothesis: true location shift is not equal to 0
+95 percent confidence interval:
+ -3.029783  5.463869
+sample estimates:
+difference in location 
+              0.560394 
+
+
+
+NB vs RC (alpha=0.05)
+
+
+	Wilcoxon rank sum test with continuity correction
+
+data:  data[, i] and data[, j]
+W = 283, p-value = 0.5737
+alternative hypothesis: true location shift is not equal to 0
+95 percent confidence interval:
+ -4.142700  2.598642
+sample estimates:
+difference in location 
+            -0.7542172 
+
+
+
+ADJUSTED P-VALUES
+HT vs KNN: orig. p-value=0.168326094933735 adj. p-value=0.673304379734941
+HT vs NB: orig. p-value=0.0312624231206811 adj. p-value=0.187574538724087
+HT vs RC: orig. p-value=0.0416200629283656 adj. p-value=0.208100314641828
+KNN vs NB: orig. p-value=0.42631291323986 adj. p-value=1
+KNN vs RC: orig. p-value=0.815890154860747 adj. p-value=1
+NB vs RC: orig. p-value=0.573651000624536 adj. p-value=1
+
+
+The following pairwise comparisons are statistically significant:
+
+
+EFFECT SIZE (CLIFF'S DELTA)
+
+HT vs KNN (alpha=0.05)
+
+
+Cliff's Delta
+
+delta estimate: 0.2288 (small)
+95 percent confidence interval:
+       inf        sup 
+-0.1005249  0.5129399 
+
+
+HT vs NB (alpha=0.05)
+
+
+Cliff's Delta
+
+delta estimate: 0.3568 (medium)
+95 percent confidence interval:
+       inf        sup 
+0.03105315 0.61403032 
+
+
+HT vs RC (alpha=0.05)
+
+
+Cliff's Delta
+
+delta estimate: 0.3376 (medium)
+95 percent confidence interval:
+       inf        sup 
+0.01151927 0.59877984 
+
+
+KNN vs NB (alpha=0.05)
+
+
+Cliff's Delta
+
+delta estimate: 0.1328 (negligible)
+95 percent confidence interval:
+       inf        sup 
+-0.1946438  0.4336127 
+
+
+KNN vs RC (alpha=0.05)
+
+
+Cliff's Delta
+
+delta estimate: 0.04 (negligible)
+95 percent confidence interval:
+       inf        sup 
+-0.2764495  0.3486239 
+
+
+NB vs RC (alpha=0.05)
+
+
+Cliff's Delta
+
+delta estimate: -0.0944 (negligible)
+95 percent confidence interval:
+       inf        sup 
+-0.3938831  0.2232025 
+
+

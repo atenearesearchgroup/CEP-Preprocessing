@@ -1,0 +1,76 @@
+INFORMATION
+Input file:  experiment3-4counters-preprocessing.csv
+Baseline values:  experiment3-baseline.csv
+Alpha:  0.05
+----------------
+
+
+PAIRWISE COMPARISON (WILCOXON)
+HT : preprocessing vs no preprocessing (alpha=0.05)
+
+
+	Wilcoxon signed rank test with continuity correction
+
+data:  data[, i]
+V = 15, p-value = 0.02953
+alternative hypothesis: true location is greater than 65.0784
+90 percent confidence interval:
+ 74.17355      Inf
+sample estimates:
+(pseudo)median 
+      85.69543 
+
+INTERPRETATION: The Null hypothesis can be rejected (0.0295291145452684<0.05)
+
+
+KNN : preprocessing vs no preprocessing (alpha=0.05)
+
+
+	Wilcoxon signed rank test with continuity correction
+
+data:  data[, i]
+V = 12, p-value = 0.1404
+alternative hypothesis: true location is greater than 67.1536
+90 percent confidence interval:
+ 66.92385      Inf
+sample estimates:
+(pseudo)median 
+      78.35652 
+
+INTERPRETATION: The Null hypothesis cannot be rejected
+
+
+NB : preprocessing vs no preprocessing (alpha=0.05)
+
+
+	Wilcoxon signed rank test with continuity correction
+
+data:  data[, i]
+V = 15, p-value = 0.02953
+alternative hypothesis: true location is greater than 64.5504
+90 percent confidence interval:
+ 66.97037      Inf
+sample estimates:
+(pseudo)median 
+      72.63265 
+
+INTERPRETATION: The Null hypothesis can be rejected (0.0295291145452684<0.05)
+
+
+RC : preprocessing vs no preprocessing (alpha=0.05)
+
+
+	Wilcoxon signed rank test with continuity correction
+
+data:  data[, i]
+V = 15, p-value = 0.02953
+alternative hypothesis: true location is greater than 60.8736
+90 percent confidence interval:
+ 71.22702      Inf
+sample estimates:
+(pseudo)median 
+      82.16406 
+
+INTERPRETATION: The Null hypothesis can be rejected (0.0295291145452684<0.05)
+
+
