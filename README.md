@@ -1,6 +1,6 @@
 # CEP for data stream preprocessing
 
-This repository contains additional material for the paper entitled _Data stream preprocessing for online data mining using complex event processing_, currently under revision.
+This repository contains additional material for the paper entitled _Rule-based preprocessing for data stream mining using complex event processing_, currently under revision.
 
 The repository includes code and datasets for reproducibility purposes, as well as extended experimental results and statistical analysis.
 
