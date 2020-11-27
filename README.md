@@ -49,6 +49,6 @@ For the electricity case study, we provide an additional main program that appli
 
 ## Results and statistical analysis
 
-The folder **results** contains a spreadsheet for each expmeriment with the following classification measures: accuracy, precision, recall and F1. Time and memory results are also detailed.
+The folder **results** contains a spreadsheet for each experiment with the following classification measures: accuracy, precision, recall and F1. The metrics are computed in absolute terms (_total_ in file names) and in windows (_window_ in file names). Time and memory results are also detailed.
 
 Accuracy results are provided as CSV files, from which Kruskal-Wallis and Wilcoxon statistical tests have been run in R. The outputs of the tests have been dumped to text files, which are provided too.
