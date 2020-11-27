@@ -19,6 +19,25 @@ public class ExperimentKNN extends MOAClassificationExperiment {
 	public ExperimentKNN(String dataset) {
 		super(dataset);
 	}
+	
+	/**
+	 * Parameterized constructor
+	 * @param dataset The file path of the dataset
+	 * @param numExecution The identifier of the current execution
+	 * */
+	public ExperimentKNN(String dataset, int numExecution) {
+		super(dataset, numExecution);
+	}
+	
+	/**
+	 * Parameterized constructor
+	 * @param dataset The file path of the dataset
+	 * @param numExecution The identifier of the current execution
+	 * @param frequency The reporting frequency
+	 * */
+	public ExperimentKNN(String dataset, int numExecution, int frequency) {
+		super(dataset, numExecution, frequency);
+	}
 
 	@Override
 	protected void createAlgorithm() {

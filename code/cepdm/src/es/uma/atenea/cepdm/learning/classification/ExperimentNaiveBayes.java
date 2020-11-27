@@ -20,6 +20,25 @@ public class ExperimentNaiveBayes extends MOAClassificationExperiment {
 		super(dataset);
 	}
 	
+	/**
+	 * Parameterized constructor
+	 * @param dataset The file path of the dataset
+	 * @param numExecution The identifier of the current execution
+	 * */
+	public ExperimentNaiveBayes(String dataset, int numExecution) {
+		super(dataset, numExecution);
+	}
+	
+	/**
+	 * Parameterized constructor
+	 * @param dataset The file path of the dataset
+	 * @param numExecution The identifier of the current execution
+	 * @param frequency The reporting frequency
+	 * */
+	public ExperimentNaiveBayes(String dataset, int numExecution, int frequency) {
+		super(dataset, numExecution, frequency);
+	}
+
 	@Override
 	protected void createAlgorithm() {
 		this.learner = new NaiveBayes();
