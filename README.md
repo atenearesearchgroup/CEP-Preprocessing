@@ -43,7 +43,7 @@ For each experiment, a CEP service has been developed following these steps:
 
 The CEP services can be found in the package _es.uma.atenea.cepdm.service_. Each one includes a demo program that applies some of the preprocessing rules described in the paper. The resulting data streams are available in the folder **datasets**.
 
-For experimental purposes, classification algorithms are executed using ARFF datasets produced by CEP as inputs. The main program to run four classification algorithms (Hoeffding tree, kNN, naive Bayes and rule-based classifier) is available in the package _es.uma.atenea.cepdm.learning_ (see MainMOAClassificationExperiment). 
+For experimental purposes, classification algorithms are executed using ARFF datasets produced by CEP as inputs. The main program to run six classification algorithms (Hoeffding tree, kNN, naive Bayes, rule-based classifier and two ensemble methods) is available in the package _es.uma.atenea.cepdm.learning_ (see MainMOAClassificationExperiment). 
 
 For the electricity case study, we provide an additional main program that applies both preprocessing and learning every time a new instance arrives. It can be found in the package _es.uma.atenea.cepdm.service.electricity_ (see CEPOnlineServiceElectricity).
 
