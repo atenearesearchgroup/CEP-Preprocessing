@@ -1,0 +1,110 @@
+INFORMATION
+Input file:  experiment3-estimate-preprocessing.csv
+Baseline values:  experiment3-baseline.csv
+Alpha:  0.05
+----------------
+
+
+PAIRWISE COMPARISON (WILCOXON)
+HT : preprocessing vs no preprocessing (alpha=0.05)
+
+
+	Wilcoxon rank sum test with continuity correction
+
+data:  data[, i] and ref[, i]
+W = 96, p-value = 0.0005828
+alternative hypothesis: true location shift is not equal to 0
+95 percent confidence interval:
+  1.468155 11.553755
+sample estimates:
+difference in location 
+               4.49518 
+
+INTERPRETATION: The Null hypothesis can be rejected (0.000582839943179274<0.05)
+
+
+KNN : preprocessing vs no preprocessing (alpha=0.05)
+
+
+	Wilcoxon rank sum test with continuity correction
+
+data:  data[, i] and ref[, i]
+W = 100, p-value = 0.0001827
+alternative hypothesis: true location shift is not equal to 0
+95 percent confidence interval:
+ 0.9845656 6.2446746
+sample estimates:
+difference in location 
+              2.510216 
+
+INTERPRETATION: The Null hypothesis can be rejected (0.00018267179110955<0.05)
+
+
+NB : preprocessing vs no preprocessing (alpha=0.05)
+
+
+	Wilcoxon rank sum test with continuity correction
+
+data:  data[, i] and ref[, i]
+W = 87, p-value = 0.005795
+alternative hypothesis: true location shift is not equal to 0
+95 percent confidence interval:
+ 0.3918498 2.7455472
+sample estimates:
+difference in location 
+              1.081459 
+
+INTERPRETATION: The Null hypothesis can be rejected (0.00579535854433471<0.05)
+
+
+RC : preprocessing vs no preprocessing (alpha=0.05)
+
+
+	Wilcoxon rank sum test with continuity correction
+
+data:  data[, i] and ref[, i]
+W = 81, p-value = 0.02113
+alternative hypothesis: true location shift is not equal to 0
+95 percent confidence interval:
+ 0.8614216 6.2661607
+sample estimates:
+difference in location 
+               2.83585 
+
+INTERPRETATION: The Null hypothesis can be rejected (0.0211339281291611<0.05)
+
+
+LB : preprocessing vs no preprocessing (alpha=0.05)
+
+
+	Wilcoxon rank sum test with continuity correction
+
+data:  data[, i] and ref[, i]
+W = 100, p-value = 0.0001827
+alternative hypothesis: true location shift is not equal to 0
+95 percent confidence interval:
+ 1.106612 4.964068
+sample estimates:
+difference in location 
+              3.636264 
+
+INTERPRETATION: The Null hypothesis can be rejected (0.00018267179110955<0.05)
+
+
+ARF : preprocessing vs no preprocessing (alpha=0.05)
+
+
+	Wilcoxon rank sum test with continuity correction
+
+data:  data[, i] and ref[, i]
+W = 100, p-value = 0.0001827
+alternative hypothesis: true location shift is not equal to 0
+95 percent confidence interval:
+ 2.012221 7.220888
+sample estimates:
+difference in location 
+               4.25255 
+
+INTERPRETATION: The Null hypothesis can be rejected (0.00018267179110955<0.05)
+
+
