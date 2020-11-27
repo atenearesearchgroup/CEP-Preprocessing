@@ -1,0 +1,110 @@
+INFORMATION
+Input file:  experiment1-minmax-enriched-preprocessing.csv
+Baseline values:  experiment1-baseline.csv
+Alpha:  0.05
+----------------
+
+
+PAIRWISE COMPARISON (WILCOXON)
+HT : preprocessing vs no preprocessing (alpha=0.05)
+
+
+	Wilcoxon signed rank test with continuity correction
+
+data:  data[, i]
+V = 14, p-value = 0.05282
+alternative hypothesis: true location is greater than 81.6
+90 percent confidence interval:
+ 82.89999      Inf
+sample estimates:
+(pseudo)median 
+      85.79996 
+
+INTERPRETATION: The Null hypothesis cannot be rejected
+
+
+KNN : preprocessing vs no preprocessing (alpha=0.05)
+
+
+	Wilcoxon signed rank test with continuity correction
+
+data:  data[, i]
+V = 0, p-value = 0.9849
+alternative hypothesis: true location is greater than 82.5
+95 percent confidence interval:
+ 76.5  Inf
+sample estimates:
+(pseudo)median 
+      78.39994 
+
+INTERPRETATION: The Null hypothesis cannot be rejected
+
+
+NB : preprocessing vs no preprocessing (alpha=0.05)
+
+
+	Wilcoxon signed rank test with continuity correction
+
+data:  data[, i]
+V = 10, p-value = 0.2948
+alternative hypothesis: true location is greater than 75.3
+90 percent confidence interval:
+ 73.14993      Inf
+sample estimates:
+(pseudo)median 
+      75.60006 
+
+INTERPRETATION: The Null hypothesis cannot be rejected
+
+
+RC : preprocessing vs no preprocessing (alpha=0.05)
+
+
+	Wilcoxon signed rank test with continuity correction
+
+data:  data[, i]
+V = 10, p-value = 0.2948
+alternative hypothesis: true location is greater than 73.7
+90 percent confidence interval:
+ 71.49999      Inf
+sample estimates:
+(pseudo)median 
+      75.59999 
+
+INTERPRETATION: The Null hypothesis cannot be rejected
+
+
+LB : preprocessing vs no preprocessing (alpha=0.05)
+
+
+	Wilcoxon signed rank test with continuity correction
+
+data:  data[, i]
+V = 3, p-value = 0.9112
+alternative hypothesis: true location is greater than 92.8
+90 percent confidence interval:
+ 90.72499      Inf
+sample estimates:
+(pseudo)median 
+      91.71996 
+
+INTERPRETATION: The Null hypothesis cannot be rejected
+
+
+ARF : preprocessing vs no preprocessing (alpha=0.05)
+
+
+	Wilcoxon signed rank test with continuity correction
+
+data:  data[, i]
+V = 13, p-value = 0.08876
+alternative hypothesis: true location is greater than 92.2
+90 percent confidence interval:
+ 92.20499      Inf
+sample estimates:
+(pseudo)median 
+      92.79996 
+
+INTERPRETATION: The Null hypothesis cannot be rejected
+
+
